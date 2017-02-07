@@ -15,6 +15,7 @@
 		E321C4DF1E4988A400F0616F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E321C4DD1E4988A400F0616F /* LaunchScreen.storyboard */; };
 		E321C4EA1E4988A500F0616F /* faceWindowDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E321C4E91E4988A500F0616F /* faceWindowDemoTests.m */; };
 		E321C4F51E4988A500F0616F /* faceWindowDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E321C4F41E4988A500F0616F /* faceWindowDemoUITests.m */; };
+		E321C5051E4989EC00F0616F /* FaceWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E321C5041E4989EC00F0616F /* FaceWindowViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E321C4F01E4988A500F0616F /* faceWindowDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = faceWindowDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E321C4F41E4988A500F0616F /* faceWindowDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = faceWindowDemoUITests.m; sourceTree = "<group>"; };
 		E321C4F61E4988A500F0616F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E321C5031E4989EC00F0616F /* FaceWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceWindowViewController.h; sourceTree = "<group>"; };
+		E321C5041E4989EC00F0616F /* FaceWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceWindowViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		E321C4C31E4988A400F0616F = {
 			isa = PBXGroup;
 			children = (
+				E321C5021E4989DD00F0616F /* faceWindow */,
 				E321C4CE1E4988A400F0616F /* faceWindowDemo */,
 				E321C4E81E4988A500F0616F /* faceWindowDemoTests */,
 				E321C4F31E4988A500F0616F /* faceWindowDemoUITests */,
@@ -138,6 +142,15 @@
 				E321C4F61E4988A500F0616F /* Info.plist */,
 			);
 			path = faceWindowDemoUITests;
+			sourceTree = "<group>";
+		};
+		E321C5021E4989DD00F0616F /* faceWindow */ = {
+			isa = PBXGroup;
+			children = (
+				E321C5031E4989EC00F0616F /* FaceWindowViewController.h */,
+				E321C5041E4989EC00F0616F /* FaceWindowViewController.m */,
+			);
+			path = faceWindow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +292,7 @@
 				E321C4D71E4988A400F0616F /* ViewController.m in Sources */,
 				E321C4D41E4988A400F0616F /* AppDelegate.m in Sources */,
 				E321C4D11E4988A400F0616F /* main.m in Sources */,
+				E321C5051E4989EC00F0616F /* FaceWindowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
