@@ -16,6 +16,7 @@
 		E321C4EA1E4988A500F0616F /* faceWindowDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E321C4E91E4988A500F0616F /* faceWindowDemoTests.m */; };
 		E321C4F51E4988A500F0616F /* faceWindowDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E321C4F41E4988A500F0616F /* faceWindowDemoUITests.m */; };
 		E321C5051E4989EC00F0616F /* FaceWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E321C5041E4989EC00F0616F /* FaceWindowViewController.m */; };
+		E3C355721E49B72200DD75C5 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C355711E49B72200DD75C5 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		E321C4F61E4988A500F0616F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E321C5031E4989EC00F0616F /* FaceWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceWindowViewController.h; sourceTree = "<group>"; };
 		E321C5041E4989EC00F0616F /* FaceWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceWindowViewController.m; sourceTree = "<group>"; };
+		E3C355701E49B72200DD75C5 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		E3C355711E49B72200DD75C5 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				E321C4D31E4988A400F0616F /* AppDelegate.m */,
 				E321C4D51E4988A400F0616F /* ViewController.h */,
 				E321C4D61E4988A400F0616F /* ViewController.m */,
+				E3C355701E49B72200DD75C5 /* TableViewController.h */,
+				E3C355711E49B72200DD75C5 /* TableViewController.m */,
 				E321C4D81E4988A400F0616F /* Main.storyboard */,
 				E321C4DB1E4988A400F0616F /* Assets.xcassets */,
 				E321C4DD1E4988A400F0616F /* LaunchScreen.storyboard */,
@@ -292,6 +297,7 @@
 				E321C4D71E4988A400F0616F /* ViewController.m in Sources */,
 				E321C4D41E4988A400F0616F /* AppDelegate.m in Sources */,
 				E321C4D11E4988A400F0616F /* main.m in Sources */,
+				E3C355721E49B72200DD75C5 /* TableViewController.m in Sources */,
 				E321C5051E4989EC00F0616F /* FaceWindowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,6 +536,7 @@
 				E321C4FB1E4988A500F0616F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E321C4FC1E4988A500F0616F /* Build configuration list for PBXNativeTarget "faceWindowDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +545,7 @@
 				E321C4FE1E4988A500F0616F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E321C4FF1E4988A500F0616F /* Build configuration list for PBXNativeTarget "faceWindowDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +554,7 @@
 				E321C5011E4988A500F0616F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

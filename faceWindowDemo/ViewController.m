@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TableViewController.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+   
 }
 
 
@@ -25,5 +27,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)aaa:(id)sender {
+    TableViewController * VC = [[TableViewController alloc]init];
+    
+    [self presentViewController:VC animated:YES completion:nil];
+}
 
 @end

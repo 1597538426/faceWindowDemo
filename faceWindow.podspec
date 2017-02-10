@@ -73,7 +73,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/1597538426/faceWindowDemo/tree/1.0.0.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/1597538426/faceWindowDemo.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
